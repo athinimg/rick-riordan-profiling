@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="myhtml" target="_blank">
+        <title>My HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="device-width" initial-scale="1">
+
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+
+            header{
+                text-align:center;
+                font-size: 40px;
+            }
+            h1{
+                text-align:left;
+                font-size:20px;
+            }
+            h2, h3{
+                font-family: Arial, Helvetica, sans-serif;
+                color:black;
+                text-align:center;
+            }
+
+            nav{
+                float:left;
+                width:30%;
+                font-size: 30px;
+            }
+
+            article{
+                float:right;
+                width:40%;
+                padding:20px;
+            }
+
+            aside{
+                float:right;
+                width:30%;
+                font-style:italic;
+                padding:20px;
+            }
+
+            footer{
+                text-align:center;
+                width:100%;
+                bottom:0;
+                padding:20px;
+                clear:both;
+            }
+
+            @media(max-width:600px){
+                nav, article, details, aside{
+                    width:100%;
+                    height:auto;
+                }
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>Percy Jackson and the Olympians: The Lightning Thief</header>
+
+        <section>
+        
+        <nav>
+            <h1>You can buy puffin books at:</h1>
+            <a href="#">UK</a> <br>
+            <a href="#">USA</a> <br>
+            <a href="#">Canada</a><br>
+            <a href="#">Ireland</a><br>
+            <a href="#">India</a><br>
+            <a href="#">New Zealand</a><br>
+            <a href="#">South Africa</a>
+        </nav>
+
+        <aside>
+            <figure>
+                <img src="rickriordan.jpg" alt="Rick Riordan" width="120" height="150">
+                <figcaption>Rick Riordan</figcaption>
+            </figure>
+
+            <address>
+                5844 Amatola Street<br>
+                Diepsloot Extension 7<br>
+                Randburg<br>
+                2189
+            </address>
+            <br>
+            <p>We might find him on mail:</p>
+            <a href="mailto:rick.riordan@uk.com">rick.riordan@yk.com</a>
+            <br>
+            <figure>
+                <img src="lightningthief.png" alt="lighting thief" width="120" height="150">
+                <figcaption>
+                    My Lightning Thief
+                </figcaption>
+            </figure>
+        </aside>
+
+        <article>
+            <h2>Synopsis</h2>
+            <p>
+                <b>Look, I didnt want to be a half-blood. I never asked to be the son of a greek god.</b><br>
+                I was a normal kid, going to school, playing basketball, skateboarding. The usual. Until I accidentally vaporized my maths teacher. Now I spend my time battling monsters.<br>
+                This is the one where Zeus, god of the sky, thinks I've stolen his lighting bolt-and making Zeus is a very bad idea.
+            </p>
+            <h4><b>OR:</b></h4>
+            <p>
+                Twelve-year-old Percy Jackson is on the most dangerous quest of his life. With the help of a satyr and a daughter of Athena, Percy must journey across the United States to catch a thief who has stolen the original weapon of mass destruction — Zeus’ master bolt. Along the way, he must face a host of mythological enemies determined to stop him. Most of all, he must come to terms with a father he has never known, and an Oracle that has warned him of betrayal by a friend.
+            </p>
+
+            <h3>Rick Riordan Presents</h3>
+            <p>
+                Rick Riordan Presents is one small branch of the Disney-Hyperion Publishing family. We aim to publish about four books a year. All these will be books that my editor Stephanie Lurie and I feel will appeal to kids who like my books. In other words, they will probably be some type of middle grade adventure, with lots of humor and action, and probably draw on myth or folklore in some way.
+            </p>
+            <p>
+                Our goal is to publish great middle grade authors from underrepresented cultures and backgrounds, to let them tell their own stories inspired by the mythology and folklore of their own heritage. Over the years, I’ve gotten many questions from my fans about whether I might write about various world mythologies, but in most cases I knew I wasn’t the best person to write those books. Much better, I thought, to use my experience and my platform at Disney to put the spotlight on other great writers who are actually from those cultures and know the mythologies* better than I do. Let them tell their own stories, and I would do whatever I could to help those books find a wide audience!
+            </p>
+
+            <details>
+                <summary>
+                    Percy jacks and the Olympians
+                </summary>
+                <p>
+                    The series that started it all. Follow the demigod son of Poseidon and his friends on a quest that will have them meeting gods, battling monsters, and taking on the Titans from Greek mythology.
+                </p>
+            </details>
+        </article>
+        </section>
+
+        <footer>
+            <p>You can find out more on:</p>
+            <a href="www.rickriordan.co.uk">Rick Riordan</a>|
+            <a href="www.penguin.co.uk">Penguin</a>|
+            <a href="www.greenpenguin.co.uk">Green Penguin</a>
+        </footer>
+    </body>
+</html>
